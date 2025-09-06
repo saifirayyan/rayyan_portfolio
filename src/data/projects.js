@@ -21,6 +21,6 @@ export const PROJECTS = [
       "Realtime chat application, where users can send messages and images. (MERN stack)",
     tech: ["React", "Node", "Express", "MongoDB", "Tailwind", "Zustand", "Socket.io"],
     github: "https://github.com/saifirayyan/chat-app",
-    demo: "#",
+    demo: "https://chatty-app-att8.onrender.com/",
   },
 ];
