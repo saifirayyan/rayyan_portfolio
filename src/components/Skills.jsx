@@ -20,7 +20,6 @@ export const skills = [
   { name: "Git/GitHub", icon: <BsGithub className="w-6 h-6" /> },
 ];
 
-
 function Skills() {
   return (
     <section id="skills" className="py-16">
@@ -50,7 +49,12 @@ function Skills() {
             <motion.li
               variants={fadeUp}
               key={s.name}
-              className="flex items-center gap-3 rounded-2xl bg-white border border-slate-200 p-4 shadow-sm dark:bg-slate-800 dark:border-slate-700"
+              whileHover={{ scale: 1.05, y: -4 }}
+              whileTap={{ scale: 0.97 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="flex items-center gap-3 rounded-2xl bg-white border border-slate-200 
+             p-4 shadow-sm dark:bg-slate-800 dark:border-slate-700
+             transition-colors duration-300"
             >
               <span className="shrink-0 text-slate-700 dark:text-slate-200">
                 {s.icon}
