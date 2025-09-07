@@ -20,18 +20,26 @@ function Hero() {
             and accessible web apps. I love React, Tailwind, and bringing ideas to life.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <a
+           <motion.a
               href="#projects"
-              className="px-5 py-2.5 rounded-2xl bg-slate-900 text-white shadow-md hover:shadow-lg transition dark:bg-slate-100 dark:text-slate-900"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="px-5 py-2.5 rounded-2xl bg-slate-900 text-white shadow-md hover:shadow-lg transition-colors duration-300 dark:bg-slate-100 dark:text-slate-900"
             >
               View Projects
-            </a>
-            <a
+            </motion.a>
+            <motion.a
               href="#contact"
-              className="px-5 py-2.5 rounded-2xl border border-slate-300 hover:border-slate-400 text-slate-700 dark:border-slate-600 dark:text-slate-200"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="px-5 py-2.5 rounded-2xl border border-slate-300 hover:border-slate-400 
+             text-slate-700 dark:border-slate-600 dark:text-slate-200
+             transition-colors duration-300"
             >
               Contact Me
-            </a>
+            </motion.a>
           </div>
         </motion.div>
 

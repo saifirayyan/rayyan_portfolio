@@ -13,7 +13,7 @@ export const PROJECTS = [
       "E-commerce shoe site with product filters, cart, and Admin panel. (MERN stack)",
     tech: ["React", "Node", "Express", "MongoDB", "Tailwind", "Redux"],
     github: "https://github.com/saifirayyan/shoe_store",
-    demo: "#",
+    demo: "",
   },
   {
     title: "Chat App",

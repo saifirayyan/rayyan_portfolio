@@ -34,7 +34,7 @@ function Navbar({ darkMode, setDarkMode }) {
           <button
             onClick={() => setDarkMode(!darkMode)}
             aria-label="Toggle dark mode"
-            className="p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800"
+            className="p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer"
           >
             {darkMode ? (
               <Sun className="w-5 h-5" />

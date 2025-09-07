@@ -24,12 +24,12 @@ function Projects() {
                 ))}
               </ul>
               <div className="mt-4 flex items-center gap-3">
-                <a href={p.github} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-sm text-slate-800 hover:text-slate-900 dark:text-slate-200">
+                <a href={p.github} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-sm text-slate-800 hover:text-slate-900 transition-all duration-200 dark:text-slate-200 dark:hover:text-slate-400 hover:scale-90">
                   <Github className="w-4 h-4" /> Code
                 </a>
-                <a href={p.demo} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-sm text-slate-800 hover:text-slate-900 dark:text-slate-200">
+                {p.demo && <a href={p.demo} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-sm text-slate-800 hover:text-slate-900 dark:text-slate-200 dark:hover:text-slate-400 hover:scale-90 transition-all duration-200">
                   <ExternalLink className="w-4 h-4" /> Demo
-                </a>
+                </a>}
               </div>
             </motion.article>
           ))}
