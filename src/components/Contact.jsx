@@ -22,11 +22,11 @@ function Contact() {
         formRef.current,
         PUBLIC_KEY
       );
-      setStatus("Message sent! I will get back to you soon.");
+      setStatus("✅ Message sent! I will get back to you soon.");
       formRef.current?.reset();
     } catch (err) {
       console.error(err);
-      setStatus("Failed to send. Please try again or email me directly.");
+      setStatus("❌ Failed to send. Please try again or email me directly.");
     }
   };
 
