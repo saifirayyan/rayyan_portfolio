@@ -106,11 +106,7 @@ function About() {
               A little about me
             </h3>
             <p className="mt-4 text-lg text-slate-600 leading-relaxed dark:text-slate-300">
-              I build frontends in React with Tailwind, integrate APIs, and
-              ensure clean state management. I’m comfortable with Express/Node,
-              MongoDB, and deploying apps to platforms like Vercel/Render.
-              Outside code, I enjoy exploring UI/UX patterns and improving
-              performance.
+              I specialize in building responsive frontends with React and Tailwind CSS, integrating APIs, and maintaining clean state management. I am skilled in Express/Node.js and MongoDB, with experience deploying applications on platforms such as Vercel and Render. Beyond development, I have a strong interest in UI/UX design principles and performance optimization.
             </p>
           </div>
         </motion.div>

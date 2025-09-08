@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeUp } from "../animations/variants";
+import { Download } from "lucide-react";
 
 function Hero() {
   return (
@@ -20,25 +21,26 @@ function Hero() {
             and accessible web apps. I love React, Tailwind, and bringing ideas to life.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-           <motion.a
-              href="#projects"
+            <motion.a
+              href="https://wa.me/919760112717"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 300 }}
               className="px-5 py-2.5 rounded-2xl bg-slate-900 text-white shadow-md hover:shadow-lg transition-colors duration-300 dark:bg-slate-100 dark:text-slate-900"
             >
-              View Projects
+              Contact Me
             </motion.a>
             <motion.a
-              href="#contact"
+              href="/rayyan-resume.pdf"
+              download="Rayyan-Saifi-Resume.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 300 }}
               className="px-5 py-2.5 rounded-2xl border border-slate-300 hover:border-slate-400 
              text-slate-700 dark:border-slate-600 dark:text-slate-200
-             transition-colors duration-300"
+             transition-colors duration-300 flex items-center justify-center gap-2"
             >
-              Contact Me
+               <Download /> Resume
             </motion.a>
           </div>
         </motion.div>

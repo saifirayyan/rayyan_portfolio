@@ -11,12 +11,12 @@ import { FaCss3 } from "react-icons/fa6";
 export const skills = [
   { name: "HTML", icon: <Code2 className="w-6 h-6" /> },
   { name: "CSS", icon: <FaCss3 className="w-6 h-6" /> },
+  { name: "Tailwind", icon: <SiTailwindcss className="w-6 h-6" /> },
   { name: "Javascript", icon: <DiJavascript1 className="w-6 h-6" /> },
   { name: "React", icon: <SiReact className="w-6 h-6" /> },
   { name: "Node.js", icon: <FaNodeJs className="w-6 h-6" /> },
-  { name: "MongoDB", icon: <SiMongodb className="w-6 h-6" /> },
-  { name: "Tailwind", icon: <SiTailwindcss className="w-6 h-6" /> },
   { name: "Express", icon: <SiExpress className="w-6 h-6" /> },
+  { name: "MongoDB", icon: <SiMongodb className="w-6 h-6" /> },
   { name: "Git/GitHub", icon: <BsGithub className="w-6 h-6" /> },
 ];
 
